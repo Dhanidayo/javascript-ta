@@ -1,6 +1,6 @@
 // complete the function
 function palindrom(str) {
-  // code goes here
+   return  str === str.split("").reverse().join("")
 }
 
 function solution(arg) {
